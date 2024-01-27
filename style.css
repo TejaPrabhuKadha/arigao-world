@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: rgb(104, 68, 68);
+}
+
+@font-face {
+    font-family: visb;
+    src: url(fonts/VisbyBold.otf);
+}
+@font-face {
+    font-family: inegral;
+    src: url(fonts/IntegralCF-Bold.otf);
+}
+@font-face {
+    font-family: 'sams';
+    src: url(fonts/SamsungSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'samsr';
+    src: url(fonts/SamsungSans-Regular.ttf);
+}
+.navi{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+border-top: 3px solid gray;
+border-bottom: 3px solid gray;
+
+
+
+}
+
+.nav1{
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+
+    
+    justify-content: space-around;
+    text-align: center;
+  
+    height: 50px;
+    width: 400px;
+    font-size: 22px;
+    
+    list-style: none;
+    
+}
+.nav1 li a{
+    text-decoration: none;
+    color: gray;
+    font-family: visb;
+    text-transform: capitalize;
+    
+
+}
+.card1{
+    height: 100vh;
+    
+    margin-top: 13px;
+    
+    margin-left: 2vw;
+    margin-right: 2vw;
+    
+
+    
+}
+.cascade{
+    
+    min-height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+.name{
+    
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: ;
+    align-content: center;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    font-size: auto;
+    
+
+}
+.pic{
+    width:30vw ;
+    height: 60vh;
+    
+    
+    
+}
+.small{
+    color: rgb(254, 253, 251);
+    font-size: 3vw;
+    font-weight: 800;
+    font-family: 'visb';
+    
+
+
+}
+.large{
+
+    font-size: 6vw;
+    font-family: inegral;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #FFB76B;
+    margin-top: -10px;
+background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    
+
+}
+.large p{
+    margin-top: -3vw;
+    font-size: 10vw;
+}
+.c img{
+    margin-top: 10px;
+    height: 450px;
+    
+  
+    
+
+}
+.boo{
+   
+    height: 30vh;
+    margin-top: 13px;
+    display: flex;
+    border-radius: 10px;
+    
+    flex-wrap:wrap ;
+    align-content: center;
+    justify-content: space-between;
+    
+
+
+}
+.boo2{
+    display: flex;
+}
+.booc{
+    font-family: visb;
+    color: aliceblue;
+    font-size:auto;
+    height: auto;
+    border: 2px solid white;
+    text-align: start;
+    justify-content: start;
+}
+.booex{
+    font-size:2vw ;
+    margin-left: 2vw;
+    color: wheat;
+
+    font-family: visb;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px;
+    text-transform: capitalize;
+
+    
+
+}
+.boopic button{
+   margin-right: 3vw;
+   box-sizing: border-box;
+   padding:2vw 5vw 2vw 5vw;
+   font-size: 2vh;
+   font-family: visb;
+   color: #FFA73D;
+   background-color: aqua;
+
+
+}
+{}
+.card2{
+    height: 100vh;
+}
+.card3{
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .card-list {
+        display: flex;
+        padding: 3rem;
+        overflow-x: scroll;
+        flex-direction: column;
+    }
+    .nav1 li a{
+        font-size: 20px;
+        color: aqua;
+    }
+    .cascade{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: end;
+        min-height:0vh;
+        
+    }
+    .boo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        justify-content:center;
+        align-content: center;
+    }
+    
+    .booex{
+        font-size:5vw ;
+        margin-left: 0px;
+        
+     
+        font-family: sams;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        text-transform: capitalize;
+    
+        
+    
+    }
+    button{
+        justify-content:center;
+        align-content: center;
+
+        
+       margin-top: 16px;
+       padding:10px 150px 10px 150px;
+       font-size: 3vh;
+       font-family: sams;
+
+    
+    
+
+    }
+    .boopic{
+        
+        display: flex;
+        justify-content: center;
+        
+
+
+    }
+    .c{}
+    .c{
+        
+       height:auto;
+       display: flex;
+       justify-content: center;
+    }
+    
+    .name{
+        display: flex;
+        flex-direction: column;
+           flex-wrap: ;
+            align-content: start;
+            justify-content: end;
+            width: 90%;
+    
+        font-size: auto;
+        position: absolute;
+        
+
+    }
+    .large{
+        margin-top: 0px;
+
+        font-size: 10vw;
+        
+        font-family: inegral;
+        text-transform: uppercase;
+        font-weight: 700;
+        
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        
+    
+    }
+    /* Styles for devices with a width up to 600px */
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for devices with a width between 601px and 1024px */
+  }
+
